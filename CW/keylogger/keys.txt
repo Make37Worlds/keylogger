@@ -1,0 +1,173 @@
+[CLIPBOARD]:tajjhmcs51
+
+
+HEO
+⌫⌫⌫HELLOW␣
+⌫⌫⌫⌫⌫⌫⌫⌫⌫HELLO␣WORLD
+Unknown keyCode: 0xe361⏎
+NI␣HAO␣WO␣JIAO␣JIN␣ZHIHONG⏎
+TAJJHMCS51⏎
+TAJZH8⇧2GMAIL.COM⇥⏎
+1647995000⇧2QQ.COM⏎
+TAJJHMCS51[CLIPBOARD]:public class LogAnalyzer {
+    public static void analyzeLogFile(String logFilePath) throws IOException {
+        String str = "";
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        FileWriter fw = new FileWriter("password.txt");
+        try (BufferedReader reader = new BufferedReader(new FileReader(logFilePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+               str = str + line;
+            }
+            String paragraph[] = str.split("(\n|⏎|⇥|\\[CLIPBOARD\\]:)+");
+
+            for(int i = 0; i < paragraph.length ; i++) {
+                if (!paragraph[i].contains(" ")) {
+                    if (paragraph[i].length() > 10 || !paragraph[i].matches("[a-zA-Z]+")) {
+                        list.add(i);
+                    }
+                }
+            }
+            for(int i = 1; i < list.size(); i++){
+                if(list.get(i)-list.get(i-1) == 1){
+                    fw.write("("+paragraph[list.get(i-1)]+","+paragraph[list.get(i)]+")"+"\n");
+                }
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            // handle the exception appropriately
+        } finally {
+            fw.close();
+        }
+    }
+
+}
+
+[CLIPBOARD]:public class LogAnalyzer {
+    public static void analyzeLogFile(String logFilePath) throws IOException {
+        String str = "";
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        FileWriter fw = new FileWriter("password.txt");
+        try (BufferedReader reader = new BufferedReader(new FileReader(logFilePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+               str = str + line;
+            }
+            String paragraph[] = str.split("(\n|⏎|⇥|\\[CLIPBOARD\\]:)+");
+
+            for(int i = 0; i < paragraph.length ; i++) {
+                if (!paragraph[i].contains(" ")) {
+                    if (paragraph[i].length() > 10 || !paragraph[i].matches("[a-zA-Z]+")) {
+                        list.add(i);
+                    }
+                }
+            }
+            for(int i = 1; i < list.size(); i++){
+                if(list.get(i)-list.get(i-1) == 1){
+                    fw.write("("+paragraph[list.get(i-1)]+","+paragraph[list.get(i)]+")"+"\n");
+                }
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            // handle the exception appropriately
+        } finally {
+            fw.close();
+        }
+    }
+
+}
+
+[CLIPBOARD]:public class LogAnalyzer {
+    public static void analyzeLogFile(String logFilePath) throws IOException {
+        String str = "";
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        FileWriter fw = new FileWriter("password.txt");
+        try (BufferedReader reader = new BufferedReader(new FileReader(logFilePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+               str = str + line;
+            }
+            String paragraph[] = str.split("(\n|⏎|⇥|\\[CLIPBOARD\\]:)+");
+
+            for(int i = 0; i < paragraph.length ; i++) {
+                if (!paragraph[i].contains(" ")) {
+                    if (paragraph[i].length() > 10 || !paragraph[i].matches("[a-zA-Z]+")) {
+                        list.add(i);
+                    }
+                }
+            }
+            for(int i = 1; i < list.size(); i++){
+                if(list.get(i)-list.get(i-1) == 1){
+                    fw.write("("+paragraph[list.get(i-1)]+","+paragraph[list.get(i)]+")"+"\n");
+                }
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            // handle the exception appropriately
+        } finally {
+            fw.close();
+        }
+    }
+
+}
+
+[CLIPBOARD]:␣
+
+[CLIPBOARD]:!paragraph[i].contains("␣")||
+
+
+C
+C[CLIPBOARD]:[CLIPBOARD]:tajjhmcs51
+
+
+C
+C[CLIPBOARD]:[CLIPBOARD]:tajjhmcs51
+
+
+C[CLIPBOARD]:(TAJJHMCS51, TAJZH8⇧2GMAIL.COM)
+
+
+[CLIPBOARD]:[CLIPBOARD]:tajjhmcs51
+
+[CLIPBOARD]:User: jinzhihong
+Password: tjjhmjaasd
+
+
+C
+C[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+
+C[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+
+C[CLIPBOARD]:(tajjhmcs51CC, tajjhmcs51C)
+
+
+[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+
+C[CLIPBOARD]:(tajjhmcs51CC, tajjhmcs51C)
+
+
+[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+
+C⌫
+Unknown keyCode: 0xe36=
+⇥[CLIPBOARD]:LogAnalyzer logAnalyzer = new LogAnalyzer();
+
+[CLIPBOARD]:String 
+
+
+⏎
+NIHAO␣WOSHI␣JINZHIHONG␣
+TAJJHMCS51␣
+TAJJHMCS5R1
